@@ -1,16 +1,13 @@
 import React from 'react'
-import Navbar from './components/Navbar'
 import './App.css'
-import Main from './components/Main'
-import Group from './components/Group'
-import Footer from './components/Footer'
+import {BrowserRouter as Router} from 'react-router-dom'
+import Routes from './Routes'
 function App() {
   return (
     <div className="app-header">
-      <Navbar />
-      <Group />
-      <Main />
-      <Footer />
+      <Router>
+        <Routes />
+      </Router>
     </div>
   )
 }
