@@ -1,6 +1,4 @@
-export const number = [
-    
-]
+
 export const emoji=[
     {title:'Happy',emoji:"😀",text:"Hey ! I am happy"},
     {title:'Celebration',emoji:"🥳",text:"Hey ! It is party time"},
@@ -27,7 +25,7 @@ export const math=[
     {text:'zero',emoji:"0️⃣",title:'Digit'},
     {text:'one',emoji:"1️⃣",title:'Digit'},
     {text:'two',emoji:"2️⃣",title:'Digit'},
-    {text:'three',emoji:"📅",title:`Date`},
+    {text:'Today',emoji:"📅",title:`Date`},
     {text:'four',emoji:"3️⃣",title:'Digit'},
     {text:'five',emoji:"4️⃣",title:'Digit'},
     {text:'six',emoji:"6️⃣",title:'Digit'},
