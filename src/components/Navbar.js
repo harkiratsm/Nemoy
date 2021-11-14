@@ -3,8 +3,9 @@ import {makeStyles} from "@mui/styles"
 import TwitterCard from './TwitterCard';
 const useStyles=makeStyles(({
     root:{
-        height:'3.25rem',
+        
         width:'100%',
+        height:'70px',
         display:'flex',
         flexDirection:'row',
         justifyContent:'space-between',

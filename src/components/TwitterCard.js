@@ -11,12 +11,13 @@ const useStyles=makeStyles(({
         marginBottom:'auto',
         marginRight:'2rem',
         borderRadius:'18px',
-        
+        height:"60px",
     },
     img1:{
         borderRadius:'50%',
         border:'2px solid rgb(41,171,226)',
         height:'40px',
+        marginLeft:'3px'
     },
     img2:{
         borderRadius:'50%',

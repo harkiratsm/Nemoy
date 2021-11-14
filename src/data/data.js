@@ -21,7 +21,7 @@ export const emoji=[
     {title:'Angry',emoji:"😡",text:"Hey ! I am angry at you"},
     {title:'Like',emoji:"👍",text:"Liked it "},
     {title:'Love',emoji:"😍",text:"I loved it !"},
-    {title:'Love',emoji:"😍",text:"I loved it !"},
+    {title:'Refuse',emoji:"🙅🏻",text:"No "},
 ]
 export const math=[
     {text:'zero',emoji:"0️⃣",title:'Digit'},
@@ -39,4 +39,11 @@ export const math=[
     {text:"can you tell the time ?",emoji:"🕒",title:'Time'},
     {text:"Yeah !  I am done with the work ",emoji:"✅",title:'Tick'},
     {text:"What I did not got it  ",emoji:"❓",title:'Query'}
+]
+export const greet=[
+    {title:'Morning',emoji:"🌅",text:"Good Morning"},
+    {title:'Evening',emoji:"🌆",text:"Good Evening"},
+    {title:'Afternoon',emoji:"☀️",text:"Good Afternoon"},
+    {title:'Greet',emoji:"🙏",text:"hey ! good morning"},
+    {title:'Hand Raise',emoji:"🙋🏻‍♂️",text:"Mam , I am having a doubt "},
 ]

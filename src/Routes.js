@@ -3,7 +3,7 @@ import {Route,Switch } from "react-router-dom";
 import Main from './components/Main';
 
 import MainLayout from './layout/MainLayout';
-import {emoji, math} from './data/data'
+import {emoji, greet, math} from './data/data'
 import TexttoSpeech from './components/TexttoSpeech';
 function Routes() {
     return (
@@ -23,7 +23,11 @@ function Routes() {
                     <TexttoSpeech />
                 </MainLayout>
             </Route>
-
+            <Route path="/greet" exact>
+                <MainLayout>
+                    <Main info={greet} />
+                </MainLayout>
+            </Route>
         </Switch>
     )
 }

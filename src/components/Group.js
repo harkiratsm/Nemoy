@@ -37,6 +37,7 @@ const Button=({text,link})=>{
 const data=[
     {name:'Emotion',link:'/'},
     {name:'Maths',link:'/math'},
+    {name:'Greetings',link:'/greet'},
     {name:'Text To Speech',link:'/texttospeech'}
 ]
 function Group() {
